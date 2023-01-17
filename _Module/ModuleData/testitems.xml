@@ -1,0 +1,26 @@
+<Items>
+    <Item id="aa_test_tunic" name="{=!}AA_Test_Tunic" mesh="casual_01" culture="Culture.vlandia" weight="0.6" appearance="1" Type="BodyArmor">
+        <ItemComponent>
+            <Armor body_armor="4" leg_armor="2" arm_armor="2" covers_body="true" modifier_group="cloth_unarmoured" material_type="Cloth" />
+        </ItemComponent>
+        <Flags UseTeamColor="true" Civilian="true" />
+    </Item>
+    <Item id="aa_test_cloak" name="{=!}AA_Test_Cloak" subtype="body_armor" mesh="battania_civil_cape" culture="Culture.battania" weight="1.2" difficulty="0" appearance="3" Type="Cape">
+        <ItemComponent>
+            <Armor body_armor="5" arm_armor="3" modifier_group="leather" material_type="Leather" />
+        </ItemComponent>
+        <Flags />
+    </Item>
+    <Item id="aa_test_boots" name="{=!}AA_Test_Boots" mesh="cav_boots" culture="Culture.vlandia" weight="0.9" appearance="1" Type="LegArmor">
+        <ItemComponent>
+            <Armor leg_armor="6" covers_legs="true" modifier_group="leather" material_type="Leather" />
+        </ItemComponent>
+        <Flags Civilian="true" />
+    </Item>
+	<Item id="aa_test_tunic.var1" name="{=!}AA_Test_Tunic_With_Variation" mesh="casual_01" culture="Culture.vlandia" weight="0.6" appearance="1" Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="4" leg_armor="2" arm_armor="2" covers_body="true" modifier_group="cloth_unarmoured" material_type="Cloth" />
+		</ItemComponent>
+		<Flags UseTeamColor="true" Civilian="true" />
+	</Item>
+</Items>

@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<ArmourVariations xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <ArmourVariation VariationId="var1">
+    <AdditionalMeshes>
+      <AdditionalMesh MeshName="battania_civil_cape" MaterialName="default" />
+		<AdditionalMesh MeshName="cav_boots" MaterialName="default" />
+    </AdditionalMeshes>
+  </ArmourVariation>
+</ArmourVariations>

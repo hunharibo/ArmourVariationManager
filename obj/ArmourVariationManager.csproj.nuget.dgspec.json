@@ -1,0 +1,78 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\projects\\ArmourVariationManager\\ArmourVariationManager\\ArmourVariationManager.csproj": {}
+  },
+  "projects": {
+    "D:\\projects\\ArmourVariationManager\\ArmourVariationManager\\ArmourVariationManager.csproj": {
+      "version": "0.0.1",
+      "restore": {
+        "projectUniqueName": "D:\\projects\\ArmourVariationManager\\ArmourVariationManager\\ArmourVariationManager.csproj",
+        "projectName": "ArmourVariationManager",
+        "projectPath": "D:\\projects\\ArmourVariationManager\\ArmourVariationManager\\ArmourVariationManager.csproj",
+        "packagesPath": "C:\\Users\\haras\\.nuget\\packages\\",
+        "outputPath": "D:\\projects\\ArmourVariationManager\\ArmourVariationManager\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\haras\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net472"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net472": {
+            "targetAlias": "net472",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net472": {
+          "targetAlias": "net472",
+          "dependencies": {
+            "Bannerlord.BuildResources": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.0.0.39, )"
+            },
+            "Harmony.Extensions": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.0.50, )"
+            },
+            "IsExternalInit": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.0.1, )"
+            },
+            "Lib.Harmony": {
+              "include": "Compile",
+              "target": "Package",
+              "version": "[2.1.1, )"
+            },
+            "Nullable": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.3.0, )"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
